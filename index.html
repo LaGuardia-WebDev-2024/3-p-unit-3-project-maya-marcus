@@ -20,6 +20,24 @@ Select ONE Additional Feature to Add
   <title>Project:Recipe book</title>
   <meta charset="utf-8">
   <style>
+#recipe {
+  color: rgb(236, 69, 97);
+}
+#ingredients {
+  color: rgb(230, 81, 101);
+}
+.recipe {
+  background-color: rgb(253, 204, 223);
+  color: rgb(241, 63, 102);
+}
+.cookie {
+  background-color: rgb(253, 190, 206);
+  color: rgb(236, 74, 96);
+}
+
+h1 {
+  color: rgb(233, 43, 84);
+}
   </style>
 </head>
 
@@ -27,13 +45,13 @@ Select ONE Additional Feature to Add
 
   <h1> Maya's Recipe Book</h1>
 
-  <h2>Recipe:</h2>
+  <h2  class="recipe"><strong> Recipe:</strong></h2>
 
   <ol>
     <li><a href=https://www.verybestbaking.com/toll-house/recipes/original-nestle-toll-house-chocolate-chip-cookies//>Chocolate Chip Cookies</a></li>
   </ol>
 
-  <h2 id="?"<h2/>Chocolate Chip Recipe</h2>
+  <h2 class="cookie" id="?"<h2/>Chocolate Chip Recipe</h2>
 
   <ul>
     <li>Time:60 minutes</li>
@@ -49,8 +67,8 @@ Select ONE Additional Feature to Add
 </table>
   <table>
     <thead>
-      <tr>
-        <th>Ingredients</th>
+      <tr id="ingredients">
+        <th><strong>Ingredients</strong></th>
         <th>Quantity</th>
         <th>Price</th>
       </tr>
@@ -69,14 +87,48 @@ Select ONE Additional Feature to Add
 
       <tr>
         <td>Salt</td>
+        <td>1 teaspoon</td>
+        <td>$2.49</td>
       </tr>
+      <tr>
+       <td>Butter</td>
+       <td>2 sticks</td>
+       <td>$3.67</td>
+      </tr>
+      <tr>
+      <td>Granulated Sugar</td>
+      <td>3/4 cups</td>
+      <td>$3.07</td>
+      </tr>
+      <tr>
+     <td> Brown Sugar</td>
+     <td>3/4 cups</td>
+     <td>$2.49</td>
+      </tr>
+
+      <tr>
+      <td>Vanilla Extract</td>
+      <td>1 Teaspoon</td>
+      <td>$4.97</td>
+     </tr>
+
+     <tr>
+     <td>Eggs</td>
+     <td> 2</td>
+     <td>$3.46</td>
+    </tr>
+   <tr>
+    <td> Chocolate Chips</td>
+    <td>2 cups</td>
+    <td>$5.99</td>
+    </tr>
+
     </tbody>
   </table>
 
-  <p><strong>Step 1:</strong> Do something.
-  </p>
+  <p id="recipe"><strong> This recipe makes the most delicious cookies you will ever try!! Doesn't take long at all and are soo worth it!</strong></p>
 
-  <p><em>Source: <a href="?">Some recipes websites</a></em></p>
+  <p><em>Other recipes: <a href=https://sallysbakingaddiction.com/chewy-chocolate-chip-cookies/>Another recipe!</a></em></p>
 
 </body>
 
